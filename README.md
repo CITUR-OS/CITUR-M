@@ -1,5 +1,5 @@
 # CITUR
-create iso to use [the linux version of Rosehip](https://github.com/donno2048/Rosehip-L)
+create iso to use [the linux version of Rosehip](https://github.com/CITUR-OS/Rosehip-L)
 
 ## In linux:
 run init.sh to create the iso using `yes | sudo bash ./init.sh`
@@ -23,7 +23,7 @@ in the iso run the word rosehip to open the desktop
 
 5. run the command `docker run -ti ubuntu`
 
-6. run the command `apt-get update && DEBIAN_FRONTEND="noninteractive" apt-get install tzdata -y && apt-get install git -y && apt-get install sudo -y && git clone --depth 1 https://github.com/donno2048/CITUR-L.git && cd CITUR-L/ && yes | sudo bash ./init.sh`
+6. run the command `apt-get update && DEBIAN_FRONTEND="noninteractive" apt-get install tzdata -y && apt-get install git -y && apt-get install sudo -y && git clone --depth 1 https://github.com/CITUR-OS/CITUR-L.git && cd CITUR-L/ && yes | sudo bash ./init.sh`
 
 (to paste in the docker you need to right-click)
 
@@ -31,7 +31,7 @@ in the iso run the word rosehip to open the desktop
 
 see _DOCKER.md_ for details of how to build it from my docker image
 
-you can also use [the windows version of CITUR](https://github.com/donno2048/CITUR)
+you can also use [the windows version of CITUR](https://github.com/CITUR-OS/CITUR)
 
-the windows iso and the linux iso both using the same [setup steps](https://gist.github.com/donno2048/2fb40cc45e742a03feddb957896bfdb6) after you have the iso file
+the windows iso and the linux iso both using the same [setup steps](https://github.com/CITUR-OS/CITUR-M/blob/linux-beta/setup.md) after you have the iso file
 
